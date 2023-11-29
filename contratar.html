@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/cards.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Open+Sans:wght@500&family=PT+Sans:wght@700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/696cba56fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script "text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    
+    <title>Contratar</title>
+
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <nav>
+                <div class="navegacion">
+                    <ul>
+                        <li><a href="#"><i class="youtube fa-brands fa-youtube" style="color: #ffffff;"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                        <li><a href="https://github.com/andriby" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a></li>
+                    </ul>
+                </div><!--navegacion-->
+            </nav>
+            <div class="titulo">
+                <h1 class="titulo-principal">Yo soy Adrián</h1>
+                <p><span>Desarrollador</span> Web</p>
+            </div>
+
+            <div class="foto-adrian">
+                <img src="img/foto-adrian.jpeg" alt="foto">
+            </div>
+        </div><!--cabecera-->
+
+        <div class="barra">
+            <div class="contenedor clearfix">
+                
+                <div class="logo">
+                    <img src="img/Imagen1.png" alt="Adrian Campos">
+                </div>
+
+                    <div class="menu-movil">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <nav class="navegacion-principal clearfix">
+                            <a href="index.html" style="border: 1px white solid;" class="inicio-btn">Inicio</a>
+                    </nav>
+            </div><!--contenedor-->
+        </div><!--barra-->
+    </header>
+
+    <section class="">
+        <h2>Redes Sociales:</h2>
+        <div class="redes-sociales clearfix">
+            <div class="carta">
+                <a href="#" class="card youtube">
+                    <div class="overlay"></div>
+                <div class="circle">
+                    <i class="logo fa-brands fa-youtube" aria-hidden="true"></i>
+                </div>
+                <p>YouTube</p>
+                </a>
+            </div> 
+
+            <div class="carta">
+                <a href="#" class="card twiiter">
+                    <div class="overlay"></div>
+                <div class="circle">
+                    <i class="logo fa-brands fa-twitter" aria-hidden="true"></i>
+                </div>
+                <p>Twitter</p>
+                </a>
+            </div>
+
+            <div class="carta">
+                <a href="#" class="card instagram">
+                    <div class="overlay"></div>
+                <div class="circle">
+                    <i class="logo fa-brands fa-instagram" aria-hidden="true"></i>
+                </div>
+                <p>Instagram</p>
+                </a>
+            </div>
+
+            <div class="carta">
+                <a href="https://github.com/andriby" target="_blank" class="card github">
+                    <div class="overlay"></div>
+                <div class="circle">
+                    <i class="logo fa-brands fa-github" aria-hidden="true"></i>
+                </div>
+                <p>GitHub</p>
+                </a>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="formulario">
+        <h2>Contactame</h2>
+        <div class="form">
+            <form id="miFormulario" action="contactado.html" method="post">
+
+                <fieldset>
+                    <legend>Sus datos</legend>
+                    <!-- Resto de los campos del formulario -->
+                  
+                <div class="datos">
+                    <div class="form-elem">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="form-elem">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+
+                    <div class="form-elem">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Seleccione el servicio</legend>
+              
+                <div class="checkbox">
+
+                    <div class="form-elem">
+                        <input type="checkbox" id="sitio-web" name="intereses" value="sitio-web">
+                        <label for="sitio-web">Desarrollo de un Sitio Web</label>
+                    </div>
+
+                    <div class="form-elem">
+                        <input type="checkbox" id="mantenimiento" name="intereses" value="mantenimiento">
+                        <label for="mantenimiento">Mantenimiento Preventivo</label>
+                    </div>
+
+                    <div class="form-elem">
+                        <input type="checkbox" id="sistema-operativo" name="intereses" value="sistema-operativo">
+                        <label for="sistema-operativo">Instalación de sistema operativo</label>
+                    </div>
+
+                </div>
+            </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+   
+    <footer>
+
+        <div class="footer-contenido">
+            <div class="contenido">
+                <h3>Redes Sociales</h3>
+            
+            
+                <nav>
+                    <div class="navegacion">
+                        <ul>
+                            <li><a href="#"><i class="youtube fa-brands fa-youtube" style="color: #ffffff;"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                            <li><a href="https://github.com/andriby" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a></li>
+                        </ul>
+                    </div><!--navegacion-->
+                </nav>
+            </div> <!--contenido-->
+
+            <div class="contenido">
+                <div class="logo-footer">
+                    <img src="img/Imagen1.png" alt="Adrian Campos">
+                </div>
+            </div>
+
+
+
+        </div><!--footer-conteniido-->
+
+        <hr>
+
+        <div class="footer-footer">
+            <p>Adrián Campos | 2023 | Todos los Derechos Reservados &copy;</p>
+        </div>
+
+    </footer>
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
